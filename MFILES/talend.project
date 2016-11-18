@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
-  <TalendProperties:Project xmi:id="_lO1Jka2VEeauZ63vRvnIOQ" label="MFiles" description="Interfaces SAP vers MFiles" language="java" technicalLabel="MFILES" creationDate="2016-11-18T14:47:00.000+0100" author="_lO1Jkq2VEeauZ63vRvnIOQ" productVersion="Talend Data Services Platform-6.2.1.20160704_1411" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/tmacembodji/TestTalend.git&quot;,&quot;login&quot;:&quot;t.macembodji@gmail.com&quot;,&quot;passwd&quot;:&quot;ERyoXI2099gNX35B/x6mUg==&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DI" itemsRelationVersion="1.3">
+  <TalendProperties:Project xmi:id="_lO1Jka2VEeauZ63vRvnIOQ" label="MFiles" description="Interfaces SAP vers MFiles" language="java" technicalLabel="MFILES" creationDate="2016-11-18T14:47:00.000+0100" author="_lO1Jkq2VEeauZ63vRvnIOQ" referencedProjects="_GMzKAK2XEea8s4JYaIPjBg" productVersion="Talend Data Services Platform-6.2.1.20160704_1411" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/tmacembodji/TestTalend.git&quot;,&quot;login&quot;:&quot;t.macembodji@gmail.com&quot;,&quot;passwd&quot;:&quot;ERyoXI2099gNX35B/x6mUg==&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DI" itemsRelationVersion="1.3">
     <technicalStatus xmi:id="_mGyFQK2VEeauZ63vRvnIOQ" label="development" code="DEV"/>
     <technicalStatus xmi:id="_mGyFQa2VEeauZ63vRvnIOQ" label="testing" code="TEST"/>
     <technicalStatus xmi:id="_mGyFQq2VEeauZ63vRvnIOQ" label="production" code="PROD"/>
@@ -338,4 +338,9 @@
     <migrationTask xmi:id="_mcEZfK2VEeauZ63vRvnIOQ" id="org.talend.repository.model.migration.AutoUpdateRelationsMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_lO1Jkq2VEeauZ63vRvnIOQ" login="thomas.mace-mbodji@fivesgroup.com" firstName="Thomas" lastName="Macé Mbodji" type="DQ" additionnalData="{}"/>
+  <TalendProperties:User xmi:id="_GMyi8K2XEea8s4JYaIPjBg" login="jeremy.vanrooy@fivesgroup.com" firstName="Jérémy" lastName="Van Rooy" type="DQ" additionnalData="{}"/>
+  <TalendProperties:User xmi:id="_GMyi8a2XEea8s4JYaIPjBg" login="jean-claude.gossec@fivesgroup.com" firstName="Jean-Claude" lastName="Gossec" type="DQ" additionnalData="{}"/>
+  <TalendProperties:ProjectReference xmi:id="_GMzKAK2XEea8s4JYaIPjBg" project="_lO1Jka2VEeauZ63vRvnIOQ" branch="master" referencedBranch="master">
+    <referencedProject href="../PROJETREFERENCE/talend.project#projectReference"/>
+  </TalendProperties:ProjectReference>
 </xmi:XMI>
