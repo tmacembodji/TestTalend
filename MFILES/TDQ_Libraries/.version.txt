@@ -1,2 +1,0 @@
-#Fri Nov 18 14:27:18 CET 2016
-version=6.2.1
